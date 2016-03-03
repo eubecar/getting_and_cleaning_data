@@ -2,7 +2,7 @@
 
 ## Overview
 
-The source dataset consists of 12999 observations of 561 different measurements. Each observation refers to an activity performed by a subject, and each subject may perform different observations of the same activity. The initial dataset is cleaned up to only 79 measurements since only "mean" and "std" analysis is required. Finally the measurements of interest are averaged by subject and activity to produce the required output file called "tidy_dataframe.csv"
+The source dataset consists of 12999 observations of 561 different measurements. Each observation refers to an activity performed by a subject, and each subject may perform different observations of the same activity. The initial dataset is cleaned up to only 79 measurements since only "mean" and "std" analysis is required. Finally the measurements of interest are averaged by subject and activity to produce the required output file called "tidy_dataframe.txt"
 
 ## Naming convention
 
