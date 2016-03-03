@@ -10,6 +10,8 @@
  - Remove all measurements except "mean" and "std" measurements.
  - Calculate the average per activity and subject for each measurement.
  
+ More detailed comments can be found in the code.
+ 
 ## tidy_dataframe.txt
  - A .txt file containing the average of each measurement per subject and activity. 
 
