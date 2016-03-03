@@ -9,7 +9,7 @@ run_analysis <- function() {
                          col.names=c("feature_id","feature_name") );  
   
   # Add the suffix "_avg" to each feature
-  feature$feature_name <- sapply( feature$feature_name , paste0, "_avg ");
+  feature$feature_name <- sapply( feature$feature_name , paste0, "_avg");
   
   # Read activity_id for each test from "y_test.txt"
   activity_test <- read.table( "UCI HAR Dataset/test/y_test.txt", 
